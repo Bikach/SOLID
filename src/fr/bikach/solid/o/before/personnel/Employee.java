@@ -42,10 +42,6 @@ public abstract class Employee {
         this.monthlyIncome = monthlyIncome;
     }
 
-    public int getNbHoursPerWeek() {
-        return nbHoursPerWeek;
-    }
-
     public void setNbHoursPerWeek(int nbHoursPerWeek) {
         if(nbHoursPerWeek <= 0){
             throw new IllegalArgumentException("Income must be positive");
