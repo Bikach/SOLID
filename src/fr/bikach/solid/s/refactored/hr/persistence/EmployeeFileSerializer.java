@@ -12,7 +12,7 @@ public class EmployeeFileSerializer {
         sb.append(employee.getFullName());
         sb.append(System.lineSeparator());
         sb.append("POSITION: ");
-        sb.append(employee.getClass().getTypeName());
+        sb.append(employee.getClass().getCanonicalName());
         sb.append(System.lineSeparator());
         sb.append("EMAIL: ");
         sb.append(employee.getEmail());
