@@ -1,5 +1,8 @@
 
-### Intellij###
+## git ##
+.gitignore
+
+## Intellij ##
 .idea/
 out/
 *.iws
