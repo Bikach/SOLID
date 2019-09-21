@@ -3,8 +3,6 @@ package fr.bikach.solid.i.before.documents;
 import fr.bikach.solid.i.before.personnel.Employee;
 
 import java.time.Month;
-import java.util.Arrays;
-import java.util.List;
 
 public class Payslip implements ExportableDocument {
     private String employeeName;
@@ -15,18 +13,6 @@ public class Payslip implements ExportableDocument {
         this.employeeName = employee.getFullName();
         this.monthlyIncome = employee.getMonthlyIncome();
         this.month = month;
-    }
-
-    public Month getMonth() {
-        return month;
-    }
-
-    public int getMonthlyIncome() {
-        return monthlyIncome;
-    }
-
-    public String getEmployeeName() {
-        return employeeName;
     }
 
     @Override
@@ -44,14 +30,15 @@ public class Payslip implements ExportableDocument {
 
     @Override
     public byte[] toPdf() {
-        List<String> list = Arrays.asList("ana","are");
-        //list.re
-        // TODO
         throw new UnsupportedOperationException();
     }
 
     @Override
     public String toJson() {
         throw new UnsupportedOperationException();
+    }
+
+    public int getMonthlyIncome() {
+        return monthlyIncome;
     }
 }
