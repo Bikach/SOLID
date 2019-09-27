@@ -1,7 +1,8 @@
-package fr.bikach.solid.d.before.documents;
+package fr.bikach.solid.d.refactored.documents;
 
 
-import fr.bikach.solid.d.before.personnel.Employee;
+
+import fr.bikach.solid.d.refactored.personnel.Employee;
 
 import java.time.Month;
 

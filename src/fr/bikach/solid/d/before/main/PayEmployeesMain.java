@@ -1,6 +1,6 @@
 package fr.bikach.solid.d.before.main;
 
-import hr.payment.PaymentProcessor;
+import fr.bikach.solid.d.before.payment.PaymentProcessor;
 
 public class PayEmployeesMain {
 

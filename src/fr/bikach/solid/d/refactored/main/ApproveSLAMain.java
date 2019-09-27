@@ -1,10 +1,13 @@
-package fr.bikach.solid.d.before.main;
+package fr.bikach.solid.d.refactored.main;
 
-import fr.bikach.solid.d.before.personnel.ServiceLicenseAgreement;
-import fr.bikach.solid.d.before.personnel.Subcontractor;
+
+
+import fr.bikach.solid.d.refactored.personnel.ServiceLicenseAgreement;
+import fr.bikach.solid.d.refactored.personnel.Subcontractor;
 
 import java.util.Arrays;
 import java.util.List;
+
 
 public class ApproveSLAMain {
     public static void main(String[] args) {

@@ -1,7 +1,6 @@
-package fr.bikach.solid.d.before.persistence;
+package fr.bikach.solid.d.refactored.persistence;
 
-
-import fr.bikach.solid.d.before.personnel.Employee;
+import fr.bikach.solid.d.refactored.personnel.Employee;
 
 public class EmployeeFileSerializer {
     public String serialize(Employee employee) {

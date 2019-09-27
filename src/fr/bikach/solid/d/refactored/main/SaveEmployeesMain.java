@@ -1,9 +1,9 @@
-package fr.bikach.solid.d.before.main;
+package fr.bikach.solid.d.refactored.main;
 
-import fr.bikach.solid.d.before.logging.ConsoleLogger;
-import fr.bikach.solid.d.before.persistence.EmployeeFileRepository;
-import fr.bikach.solid.d.before.persistence.EmployeeFileSerializer;
-import fr.bikach.solid.d.before.personnel.Employee;
+import fr.bikach.solid.d.refactored.logging.ConsoleLogger;
+import fr.bikach.solid.d.refactored.persistence.EmployeeFileRepository;
+import fr.bikach.solid.d.refactored.persistence.EmployeeFileSerializer;
+import fr.bikach.solid.d.refactored.personnel.Employee;
 
 import java.io.IOException;
 import java.util.List;

@@ -1,16 +1,10 @@
-package fr.bikach.solid.d.before.persistence;
+package fr.bikach.solid.d.refactored.persistence;
 
 
-/*
-Helper method to perform CRUD operations on employees. In a production
-application we could use the database for persistence. In this demo,
-we are storing employees in the file system.
- */
-
-import fr.bikach.solid.d.before.personnel.Employee;
-import fr.bikach.solid.d.before.personnel.FullTimeEmployee;
-import fr.bikach.solid.d.before.personnel.Intern;
-import fr.bikach.solid.d.before.personnel.PartTimeEmployee;
+import fr.bikach.solid.d.refactored.personnel.Employee;
+import fr.bikach.solid.d.refactored.personnel.FullTimeEmployee;
+import fr.bikach.solid.d.refactored.personnel.Intern;
+import fr.bikach.solid.d.refactored.personnel.PartTimeEmployee;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -22,7 +16,12 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class EmployeeFileRepository {
+/*
+Helper method to perform CRUD operations on employees. In a production
+application we could use the database for persistence. In this demo,
+we are storing employees in the file system.
+ */
+public class EmployeeFileRepository implements EmployeeRepository {
     private EmployeeFileSerializer serializer;
 
     public EmployeeFileRepository(EmployeeFileSerializer serializer) {

@@ -1,7 +1,6 @@
-package fr.bikach.solid.d.before.taxes;
+package fr.bikach.solid.d.refactored.taxes;
 
-
-import fr.bikach.solid.d.before.personnel.Employee;
+import fr.bikach.solid.d.refactored.personnel.Employee;
 
 public class FullTimeTaxCalculator implements TaxCalculator {
     private final int RETIREMENT_TAX_PERCENTAGE = 10;

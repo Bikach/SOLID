@@ -1,9 +1,9 @@
 package fr.bikach.solid.d.before.payment;
 
-import hr.notifications.EmailSender;
-import hr.persistence.EmployeeFileRepository;
-import hr.persistence.EmployeeFileSerializer;
-import hr.personnel.Employee;
+import fr.bikach.solid.d.before.notifications.EmailSender;
+import fr.bikach.solid.d.before.persistence.EmployeeFileRepository;
+import fr.bikach.solid.d.before.persistence.EmployeeFileSerializer;
+import fr.bikach.solid.d.before.personnel.Employee;
 
 import java.util.List;
 

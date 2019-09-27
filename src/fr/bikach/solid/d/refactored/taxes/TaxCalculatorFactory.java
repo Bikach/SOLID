@@ -1,9 +1,9 @@
-package fr.bikach.solid.d.before.taxes;
+package fr.bikach.solid.d.refactored.taxes;
 
-import fr.bikach.solid.d.before.personnel.Employee;
-import fr.bikach.solid.d.before.personnel.FullTimeEmployee;
-import fr.bikach.solid.d.before.personnel.Intern;
-import fr.bikach.solid.d.before.personnel.PartTimeEmployee;
+import fr.bikach.solid.d.refactored.personnel.Employee;
+import fr.bikach.solid.d.refactored.personnel.FullTimeEmployee;
+import fr.bikach.solid.d.refactored.personnel.Intern;
+import fr.bikach.solid.d.refactored.personnel.PartTimeEmployee;
 
 public class TaxCalculatorFactory {
     public static TaxCalculator create(Employee employee) {

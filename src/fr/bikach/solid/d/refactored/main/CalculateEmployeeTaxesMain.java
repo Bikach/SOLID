@@ -1,11 +1,11 @@
-package fr.bikach.solid.d.before.main;
+package fr.bikach.solid.d.refactored.main;
 
-import fr.bikach.solid.d.before.logging.ConsoleLogger;
-import fr.bikach.solid.d.before.persistence.EmployeeFileRepository;
-import fr.bikach.solid.d.before.persistence.EmployeeFileSerializer;
-import fr.bikach.solid.d.before.personnel.Employee;
-import fr.bikach.solid.d.before.taxes.TaxCalculator;
-import fr.bikach.solid.d.before.taxes.TaxCalculatorFactory;
+import fr.bikach.solid.d.refactored.logging.ConsoleLogger;
+import fr.bikach.solid.d.refactored.persistence.EmployeeFileRepository;
+import fr.bikach.solid.d.refactored.persistence.EmployeeFileSerializer;
+import fr.bikach.solid.d.refactored.personnel.Employee;
+import fr.bikach.solid.d.refactored.taxes.TaxCalculator;
+import fr.bikach.solid.d.refactored.taxes.TaxCalculatorFactory;
 
 import java.text.NumberFormat;
 import java.util.List;
