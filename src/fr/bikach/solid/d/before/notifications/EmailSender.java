@@ -1,13 +1,7 @@
 package fr.bikach.solid.d.before.notifications;
 
-import hr.personnel.Employee;
+import fr.bikach.solid.d.before.personnel.Employee;
 
-import javax.mail.*;
-import javax.mail.internet.InternetAddress;
-import javax.mail.internet.MimeBodyPart;
-import javax.mail.internet.MimeMessage;
-import javax.mail.internet.MimeMultipart;
-import javax.mail.PasswordAuthentication;
 import java.util.Properties;
 
 /*
@@ -15,7 +9,7 @@ Email sender; To make it work you need to supply correct mail
 server data; The current configuration properties will not be
 valid.
  */
-public class EmailSender {
+public class bEmailSender {
     public static void notify(Employee employee){
         // Configure email server
         Properties prop = new Properties();
